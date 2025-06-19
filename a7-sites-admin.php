@@ -257,6 +257,9 @@ class A7_Sites_Admin {
         .a7sites-footer-link {
             text-align: center;
             width: 100%;
+            height: 40px;
+            line-height: 40px;
+            padding-top: 20px;
             margin-top: 30px;
             padding-top: 20px;
             border-top: 1px solid rgba(87, 30, 122, 0.1);
