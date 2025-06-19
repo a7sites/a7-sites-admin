@@ -151,25 +151,5 @@ class A7_Sites_Admin
         }
     }
 
-<<<<<<< HEAD
     // Initialize the plugin
     new A7_Sites_Admin();
-=======
-    /**
-     * Custom header URL
-     */
-    public function header_url() {
-        return A7_SITES_ADMIN_URL;
-    }
-
-    /**
-     * Custom header text
-     */
-    public function header_text() {
-        return esc_html__('A7 Sites - O futuro da sua marca começa aqui', 'a7-sites-admin');
-    }
-}
-
-// Initialize the plugin
-new A7_Sites_Admin();
->>>>>>> df9db7e4a093fb8254912c111508376d0833a528
