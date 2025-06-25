@@ -127,7 +127,7 @@ class A7_Sites_Admin
             ?>
             </div>
             <div class="a7sites-footer-link">
-                <a href="<?php echo esc_url(A7_SITES_ADMIN_URL); ?>" target="_blank" rel="noopener noreferrer">
+                <a href="<?php echo esc_url(A7_SITES_ADMIN_URL); ?>" target="_blank" rel="noopener noreferrer" class="a7-tooltip" data-tooltip="Clique para acessar o site de suporte da A7 Sites">
                     Precisa de ajuda? Visite nosso site
                 </a>
             </div>

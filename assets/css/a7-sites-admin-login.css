@@ -229,6 +229,32 @@ body.login {
     opacity: 1;
 }
 
+.a7-tooltip {
+    position: relative;
+    cursor: pointer;
+}
+.a7-tooltip[data-tooltip]:hover:after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    bottom: 120%;
+    transform: translateX(-50%);
+    background: #571e7a;
+    color: #fff;
+    padding: 7px 16px;
+    border-radius: 8px;
+    white-space: nowrap;
+    font-size: 13px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    z-index: 10;
+    opacity: 1;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+.a7-tooltip[data-tooltip]:not(:hover):after {
+    opacity: 0;
+}
+
 @media (max-width: 768px) {
     body.login {
         padding: 20px;
