@@ -113,6 +113,7 @@ class A7_Sites_Admin
         <div class="a7sites-container">
             <div class="a7sites-logo">
                 <img src="<?php echo esc_url(A7_SITES_ADMIN_ASSETS_URL . '/a7site.svg'); ?>" alt="A7 Sites">
+                <p class="a7sites-description">Somos uma Empresa de criação de sites que é referência nacional! Faça seu site responsivo conosco e conquiste seu sucesso online!</p>
             </div>
             <div class="a7sites-form-container">
             <?php

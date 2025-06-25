@@ -91,6 +91,15 @@ body.login {
     transform: scale(1.10);
 }
 
+.a7sites-description {
+    font-size: 16px;
+    color: var(--a7-text);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
 .a7sites-form-container {
     width: 350px;
     max-width: 100%;
