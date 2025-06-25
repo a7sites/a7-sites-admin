@@ -2,7 +2,7 @@
 /*
 Plugin Name: A7 Sites Admin
 Description: Personaliza a página de login do WordPress com a identidade visual da A7 Sites.
-Version: 2.4
+Version: 2.5
 Author: A7 Sites
 Author URI: https://a7site.com.br
 Text Domain: a7-sites-admin
